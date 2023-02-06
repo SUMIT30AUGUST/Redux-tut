@@ -2,9 +2,46 @@
   text-align: center;
 }
 
+.imge{
+  width: 100px;
+  margin-top: -10px;
+}
+
+.cartimg{
+  
+    width: 72px;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+
+.btn-wrapper button{
+background-color: red;
+border: 0px;
+padding: 10px;
+border-radius: 4px;
+color: #fff;
+box-shadow: #333 0px 1px 5px ;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.item{
+  float: left;
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+
+.cart-wrapper{
+height: 235px;
+width: 500px;
+border: 1px solid #ccc;
+margin-left:10%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
