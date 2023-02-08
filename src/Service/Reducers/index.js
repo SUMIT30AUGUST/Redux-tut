@@ -2,6 +2,6 @@
 import { combineReducers } from "redux";
  import cardItems from "./reducer";
  //combineReducers is a high level component
- combineReducers({
-    cardItems
+ export default combineReducers({
+    cardItems,
  })
