@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import { addToCart } from "../Service/Actions/action";
 
 const mapStateToProps= state=>({
-  cardData: state
+  data: state.cardItems
 })
 
 const mapDispatchToProps=dispatch=>({
