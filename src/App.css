@@ -15,14 +15,18 @@
     right: 1%;
 }
 
+button.remove-cart-btn{
+  margin-top: 10px;
+  background-color: blue;
+}
 .counter{
-  right: 21px;
+  right: 16px;
   width: 20px;
   height: 26px;
   position: absolute;
   color: black;
   z-index: 999999;
-  top: 9px;
+  top: 5px;
   background-color: #ff5050;
   border-radius: 50%;
   font-size: 19px;

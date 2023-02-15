@@ -1,8 +1,8 @@
-import { ADD_TO_CART } from "../constants"
+import { ADD_TO_CART,REMOVE_TO_CART } from "../constants"
 
-const initialState={
-    cardData : []
-}
+// const initialState={
+//     cardData : []
+// }
 
 // we dont have to import action , action called automatically internally 
 export default function cardItems(state=[],action)
@@ -14,6 +14,12 @@ switch(action.type){
     return [
             ...state,
            { cardData: action.data}
+    ]
+    case REMOVE_TO_CART : 
+       state.pop();
+    //console.warn('reducer',action)     
+    return [
+            ...state,           
     ]
              default :
              return  state 
