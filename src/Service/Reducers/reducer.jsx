@@ -3,6 +3,7 @@ import { ADD_TO_CART,REMOVE_TO_CART } from "../constants"
 // const initialState={
 //     cardData : []
 // }
+console.log("git checking ");
 
 // we dont have to import action , action called automatically internally 
 export default function cardItems(state=[],action)
